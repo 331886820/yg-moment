@@ -1,6 +1,5 @@
 [博客](https://juejin.cn/user/501800125607752) | 
 [NPM地址](https://www.npmjs.com/~yg331886820)  |
-[git源码](https://github.com/331886820/yg-moment) |
 [gitee源码](https://gitee.com/esthergege/yg-moment.git)
 
 # 使用帮助
