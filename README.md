@@ -41,23 +41,31 @@
 npm install yg-moment  或者  yarn add yg-moment
 
 （2）引入
+
 // require 方式
+
 var moment = require('yg-moment');
 
 // import 方式
+
 import moment from 'yg-moment';
 
 2.浏览器方式引入
+
 <script src="yg-moment.js"></script>
 
 **二、设定yg-moment区域为中国**
 
 // require 方式
+
 require('yg-moment/locale/zh-cn')
+
 moment.locale('zh-cn'); 
 
 // import 方式
+
 import 'yg-moment/locale/zh-cn'
+
 moment.locale('zh-cn');   
 
 
@@ -417,43 +425,6 @@ moment().valueOf()
 
 moment(string).format()
 
-###### 11.demo  输出实例：
-<!--demo-codeing-begin--->
-`
-<template>
-	<div id="data-view">
-		<h1>{{ time }}</h1>
-	</div>	
-</template>
-
-<script>
-import moment from 'yg-moment';
-export default {
-	name: "name",
-	data() {
-		return{
-           time:'' 
-		}
-	},
-	created() {
-       this.getTime()
-	   setInterval(()=>{
-		   this.getTime()
-	   },500)
-	},
-	methods: {
-       getTime(){
-		let t1 = moment().format();
-		let t2 = moment().format('YYYY-MM-DD HH:mm:ss')
-		this.time = t2
-          console.log('yg-moment-t1:',t1);
-          console.log('yg-moment-t2:',t2);
-	   }
-	}
-}
-</script>
-
-<style>
 	
 </style>
 `
