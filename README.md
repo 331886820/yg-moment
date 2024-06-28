@@ -417,8 +417,9 @@ moment().valueOf()
 
 moment(string).format()
 
-
+###### 11.demo  输出实例：
 <!--demo-codeing-begin--->
+`
 <template>
 	<div id="data-view">
 		<h1>{{ time }}</h1>
@@ -455,4 +456,5 @@ export default {
 <style>
 	
 </style>
+`
 <!--demo-codeing-ending--->
