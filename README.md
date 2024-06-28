@@ -54,7 +54,9 @@ import moment from 'yg-moment';
 
 <script src="yg-moment.js"></script>
 
+
 **二、设定yg-moment区域为中国**
+
 
 // require 方式
 
@@ -425,7 +427,3 @@ moment().valueOf()
 
 moment(string).format()
 
-	
-</style>
-`
-<!--demo-codeing-ending--->
