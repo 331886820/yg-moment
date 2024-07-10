@@ -2,6 +2,8 @@
 [NPM地址](https://www.npmjs.com/~yg331886820)  |
 [git源码](https://github.com/331886820/yg-moment) |
 [gitee源码](https://gitee.com/esthergege/yg-moment.git)
+# 本项目展示 时间格式化工具【yg-moment】 的使用示例demo
+
 ![20240710_152319](https://github.com/331886820/yg-moment/assets/29726492/050f5605-31d3-444a-afa3-ecfd14c29e93)
 
 # yg-vue3-init-demo
